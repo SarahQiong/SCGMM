@@ -1,5 +1,4 @@
-# SCGMM
-Split-and-conquer for learning finite Gaussian Mixtures
+# Split-and-conquer for learning finite Gaussian Mixtures (SCGMM).
 
 
 The README file contains the description for the use of the code in this directory. The code is written in Python 3.7.3. Package dependencies are listed in requirements.txt.
