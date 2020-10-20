@@ -7,8 +7,9 @@ The README file contains the description for the use of the code in this directo
 The folder contains the code for both the simulated and real data analysis in the paper entitled "distributed learning of finite Gaussian mixtures". The code for these analysis are in two separate subdirectories named real_data and simulation respectively. We will go through these two folders one by one.
 
 
-I. real_data
+## real_data
 This folder has the following structure
+```
 |____NIST___
 |           |___nn_feature_extractor.py
 |           |___README.txt
@@ -18,6 +19,7 @@ This folder has the following structure
             |___fit_local_machine.py
             |___aggregation_gmr.py
             |___post_analysis_gmr.py
+```
 
 The NIST folder contains the code for the NN to extract the features of the NIST handwritten digits. The preprocessing and the use of the feature extractor can be found in README.txt. The code for the split-and-conquer experiment is very similar to what we have in the simulation study, we refer interested reader to go over simulation/demo.py for details.
 
@@ -25,10 +27,9 @@ The NIST folder contains the code for the NN to extract the features of the NIST
 The CAM folder contains four files that corresponding to the preprocessing, local inference, aggregation, and visualization respectively. After the dataset is downloaded, these files can be run from top to bottom to perform the analysis on the atmospheric dataset.
 
 
-
-
-II. simulation
+## simulation
 The folder contains the following files or subdirectories:
+```
 |_____CTDGMR____
 |               |___gmm_reduction.py
 |               |___utils.py
@@ -36,7 +37,7 @@ The folder contains the following files or subdirectories:
 |_____GMMpMLE.py
 |
 |_____demo.py
-
+```
 
 The gmm_reduction.py contains the python object used for aggregation by GMR.
 The GMMpMLE.py is used to compute the pMLE of the finite Gaussian mixture.
