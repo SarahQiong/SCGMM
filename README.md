@@ -1,4 +1,4 @@
-# Split-and-conquer for learning finite Gaussian Mixtures (SCGMM).
+# Split-and-conquer for learning finite Gaussian Mixtures (SCGMM)
 
 
 The README file contains the description for the use of the code in this directory. The code is written in Python 3.7.3. Package dependencies are listed in requirements.txt.
@@ -6,7 +6,7 @@ The README file contains the description for the use of the code in this directo
 The folder contains the code for both the simulated and real data analysis in the paper entitled "distributed learning of finite Gaussian mixtures". The code for these analysis are in two separate subdirectories named real_data and simulation respectively. We will go through these two folders one by one.
 
 
-## real_data
+## Real Data
 This folder has the following structure
 ```
 |____NIST___
@@ -26,7 +26,7 @@ The NIST folder contains the code for the NN to extract the features of the NIST
 The CAM folder contains four files that corresponding to the preprocessing, local inference, aggregation, and visualization respectively. After the dataset is downloaded, these files can be run from top to bottom to perform the analysis on the atmospheric dataset.
 
 
-## simulation
+## Simulation
 The folder contains the following files or subdirectories:
 ```
 |_____CTDGMR____
