@@ -4,7 +4,10 @@ The folder contains the code for both the simulated and real data analysis in th
 
 
 ## Requirements
-The code is written in Python 3.7.3. Package dependencies are listed in requirements.txt.
+The code is written in Python 3.7.3. Package dependencies are listed in requirements.txt. To install the packages, run
+```
+pip install -r requirements.txt
+```
 
 
 
