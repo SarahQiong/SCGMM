@@ -1,13 +1,16 @@
 # Split-and-conquer for learning finite Gaussian Mixtures (SCGMM)
 
+The folder contains the code for both the simulated and real data analysis in the paper entitled **distributed learning of finite Gaussian mixtures**. The code for these analysis are in two separate subdirectories named real_data and simulation respectively. We will go through these two folders one by one.
 
-The README file contains the description for the use of the code in this directory. The code is written in Python 3.7.3. Package dependencies are listed in requirements.txt.
 
-The folder contains the code for both the simulated and real data analysis in the paper entitled "distributed learning of finite Gaussian mixtures". The code for these analysis are in two separate subdirectories named real_data and simulation respectively. We will go through these two folders one by one.
+## Requirements
+The code is written in Python 3.7.3. Package dependencies are listed in requirements.txt.
+
+
 
 
 ## Real Data
-This folder has the following structure
+The real_data folder has the following structure
 ```
 |____NIST___
 |           |___nn_feature_extractor.py
@@ -27,7 +30,7 @@ The CAM folder contains four files that corresponding to the preprocessing, loca
 
 
 ## Simulation
-The folder contains the following files or subdirectories:
+The simulation folder contains the following files or subdirectories:
 ```
 |_____CTDGMR____
 |               |___gmm_reduction.py
